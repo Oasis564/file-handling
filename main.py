@@ -14,17 +14,20 @@ def create_file(filename, content):
     with open(filename, 'w') as file:
         file.write(content)
         print("File Created")
+        file.close()
 
 def read_file(filename):
     with open(filename, 'r') as file:
         content = file.read()
         print(content)
+        file.close()
         
 def read_file_list(filename):
     with open(filename, 'r') as file:
         content_list = file.readlines()
         print(content_list)
-            
+        file.close()
+        
 if __name__ == "__main__":
     filename = "test.txt"
     content = "This is a test file.\nIt contains multiple lines of text.\nEach line is separated by a newline character.\nThis is the last line."
