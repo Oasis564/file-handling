@@ -7,7 +7,7 @@ What I understand:
     
     read file list: this is very similiar to read file but instead of reading the file we read the lines and save it within a list so we can see the rawest version of the content without the \n putting everything in the next line.
     
-    __name__: Within this if statement we put down the filename and content down as variables, the filename being the name of the file and the content being what is inside the file, using \n to create lines so it is more organised and easier to read. lastly we inputted our 3 functions we made prior and put down the corresponding variables(filename and content) into the parameters of the function calls so it is equivelant to how we wrote the parameters prior..
+    __name__: Within this if statement we put down the filename and content down as variables, the filename being the name of the file and the content being what is inside the file, using \n to create lines so it is more organised and easier to read. lastly we inputted our 3 functions we made prior and put down the corresponding variables(filename and content) into the parameters of the function calls so it is equivelant to how we wrote the parameters prior...
 """
 
 def create_file(filename, content):
